@@ -10,6 +10,7 @@ The model was built using LightGBM and combined multiple data sources:
 - Session-specific user behavior (e.g., device details, clicks)
 - Aggregated RBC client data at the postal code level
 - Credit card offers
+
 The primary modeling challenge was the *cold-start* problem: since prospective website visitors are not logged in or identifiable RBC clients, it is difficult to personalize recommendations as we have very little prospect-specific data to leverage. To address this, we adopted a “people like you” strategy. By aggregating attributes of existing RBC clients within the same postal code, we inferred approximate demographic and behavioral characteristics for anonymous users — e.g., using average income of local clients as a proxy for the visitor’s income.
 
 ## 🧠 Methods & Tools
