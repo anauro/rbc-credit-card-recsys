@@ -2,7 +2,7 @@
 _An applied machine learning model developed at RBC_
 
 ## 🔍 Overview
-The RBC website is the front door for potential clients, offering a space for product exploration and an opportunity to make a strong first impression. Personalizing credit card recommendations - especially in the hero banner and “Our Top Cards” section - can surface products that are more relevant to each user, increasing engagement and driving conversion.
+The RBC website is the front door for potential clients, offering a space for product exploration and an opportunity to make a strong first impression. Personalizing credit card recommendations in the hero banner and “Our Top Cards” section can surface products that are more relevant to each user, increasing engagement and driving conversion.
 This project presents a machine learning–based recommender system designed to identify the credit cards prospective clients are most likely to apply for, and to personalize website content accordingly in real time.
 
 ## 📊 Analysis Details
@@ -24,6 +24,6 @@ The primary modeling challenge was the *cold-start* problem: since prospective w
 - Model is slated for broader integration across key user flows (e.g., post-account-opening experience, website chatbot)
 
 ## 📂 Contents
-- `scripts/`: Cleaning, modeling, and visualization scripts
+- `scripts/`: Code
 - `slides/`: Final deck summarizing findings and recommendations (PDF)
 - `README.md`: Overview of the project
