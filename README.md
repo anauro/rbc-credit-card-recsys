@@ -27,3 +27,12 @@ The primary modeling challenge was the *cold-start* problem: since prospective w
 - `scripts/`: Code
 - `slides/`: Final deck summarizing findings and recommendations (PDF)
 - `README.md`: Overview of the project
+
+| Program | Description |
+|--------|-------------|
+| `1 Prospect Base` | Identify prospective clients for training |
+| `2 Lookup Tables` | Create postal code level lookup tables using RBC client information |
+| `3 Previous Sessions` | Identify relevant user events (clicks, views) in the last 30 days |
+| `4 Model Data` | Pull in all features (session details, previous sessions, postal code inference, offers) for final model data |
+| `5 Model Training` | Train multiclass LightGBM and evaluate performance |
+| `6 ONNX Conversion` | Re-train model with full data (test + train set) and convert to ONNX file for production |
